@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Products | Mediora Pharma</title>
+
+    <meta
+        name="description"
+        content="Explore Mediora Pharma pharmaceutical, supplement and medical device products."
+    >
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+
+</head>
+
+
+<body>
+
+    <!-- =========================
+         NAVBAR
+    ========================== -->
+
+    <header class="header">
+
+        <div class="container nav-container">
+
+            <a href="index.html" class="logo">
+
+                <span class="logo-mark">
+                    M
+                </span>
+
+                <span class="logo-text">
+                    MEDIORA
+                    <small>PHARMA</small>
+                </span>
+
+            </a>
+
+
+            <nav class="navbar">
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="index.html#about">
+                    About Us
+                </a>
+
+                <a href="index.html#services">
+                    Services
+                </a>
+
+                <a
+                    href="products.html"
+                    class="active"
+                >
+                    Products
+                </a>
+
+                <a href="index.html#contact">
+                    Contact
+                </a>
+
+            </nav>
+
+
+            <a
+                href="index.html#contact"
+                class="nav-button"
+            >
+                Get In Touch
+            </a>
+
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="Menu"
+            >
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- =========================
+         PAGE HERO
+    ========================== -->
+
+    <section class="page-hero">
+
+        <div class="container">
+
+            <span class="section-label">
+                OUR PORTFOLIO
+            </span>
+
+            <h1>
+                Product <span>Catalog</span>
+            </h1>
+
+            <p>
+                Explore our pharmaceutical, healthcare
+                and wellness product portfolio.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         PRODUCTS
+    ========================== -->
+
+    <section class="products section">
+
+        <div class="container">
+
+
+            <!-- Controls -->
+
+            <div class="product-controls">
+
+                <div class="product-categories">
+
+                    <button
+                        class="category-btn active"
+                        data-category="all"
+                    >
+                        All Products
+                    </button>
+
+                    <button
+                        class="category-btn"
+                        data-category="pharmaceutical"
+                    >
+                        Pharmaceutical
+                    </button>
+
+                    <button
+                        class="category-btn"
+                        data-category="supplement"
+                    >
+                        Supplements
+                    </button>
+
+                    <button
+                        class="category-btn"
+                        data-category="medical"
+                    >
+                        Medical Devices
+                    </button>
+
+                </div>
+
+
+                <div class="product-search">
+
+                    <input
+                        type="text"
+                        id="productSearch"
+                        placeholder="Search products..."
+                    >
+
+                    <span>⌕</span>
+
+                </div>
+
+            </div>
+
+
+            <!-- Products -->
+
+            <div
+                class="products-grid"
+                id="productsGrid"
+            ></div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <div>
+
+                <strong>
+                    MEDIORA PHARMA
+                </strong>
+
+                <p>
+                    Healthcare & Pharmaceutical Solutions
+                </p>
+
+            </div>
+
+            <p>
+                © 2026 Mediora Pharma.
+                All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="js/main.js"></script>
+
+    <script src="js/products.js"></script>
+
+</body>
+
+</html>
